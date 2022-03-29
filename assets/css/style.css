@@ -1352,7 +1352,7 @@ section {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover  a, .contact .info .address:hover a, .contact .info .phone:hover a {
   background: #7cc576;
   color: #fff;
 }
@@ -1595,7 +1595,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/footer-bg.jpg") center no-repeat;
+  background-position: center center;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1720,6 +1722,6 @@ section {
 
 #footer .credits {
   text-align: center;
-  font-size: 13px;
+  font-size: 8px;
   padding-top: 5px;
 }
